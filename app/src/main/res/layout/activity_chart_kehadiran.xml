@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yaqub.tesapp001.activity.ChartKehadiranActivity">
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:autoLink="web"-->
+            <!--android:text="YaqChart Test"-->
+            <!--android:textStyle="bold" />-->
+
+        <!--<Spinner-->
+            <!--android:id="@+id/spcharts"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <WebView
+            android:id="@+id/wvLineKehadiran"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvWeb"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" />-->
+    </LinearLayout>
+    <!--</ScrollView>-->
+</android.support.constraint.ConstraintLayout>

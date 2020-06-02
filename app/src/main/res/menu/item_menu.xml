@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itmShowAllKehadiran"
+        android:title="Generate Kehadiran"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_cloud_done"/>
+
+    <item
+        android:id="@+id/itmGenerateKehadiran"
+        android:title="Generate Kehadiran"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_receipt"/>
+
+    <item
+        android:id="@+id/itmKehadiran"
+        android:title="Kehadiran"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itmKas"
+        android:title="Kas/Infaq"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itmNotulen"
+        android:title="Notulen"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itmSetting"
+        android:title="Setting"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itmDelGen"
+        android:title="Delete Generate"
+        app:showAsAction="never"/>
+
+    <!--<item-->
+        <!--android:id="@+id/itmQRCode"-->
+        <!--android:title="QR CODE"-->
+        <!--app:showAsAction="never"/>-->
+    <item
+        android:id="@+id/itmAnggota"
+        android:title="Anggota"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itmGroup"
+        android:title="Group"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itmAnggotaGroup"
+        android:title="Anggota Group"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itmLineChartKehadiran"
+        android:title="Chart Kehadiran"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/itmLogout"
+        android:title="Log Out"
+        app:showAsAction="never"/>
+
+
+</menu>
